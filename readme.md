@@ -42,7 +42,7 @@ Opracuj rozwiązania poniższych zadań.
 
 ## Zadanie 1
 Utrzymuj informację o sumie wydobytego surowca dla każdego jego typu 
-zarejestrowanych w systemie w ciągu ostatniej minuty.
+zarejestrowanych w systemie w ciągu ostatniej minuty. 
 
 Wyniki powinny zawierać, następujące kolumny:
 - `ore` - typ surowca
