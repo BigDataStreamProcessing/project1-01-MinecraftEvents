@@ -14,14 +14,17 @@ rozmiarze z określonej głębokości.
 
 Dane uzupełnione są o dwie etykiety czasowe zaokrąglone do jednej sekundy. 
 * Pierwsza (`ets`) związana jest z momentem wydobycia surowca. 
-  Etykieta ta może się losowo spóźniać w stosunku do czasu systemowego maksymalnie do 60 sekund.
+  Etykieta ta może się losowo spóźniać w stosunku do czasu systemowego 
+  maksymalnie do 60 sekund.
 * Druga (`its`) związana jest z momentem rejestracji zdarzenia w systemie.
 
 # Opis atrybutów
 
-Atrybuty w każdym zdarzeniu zgodnym ze schematem `MinecraftEvent` mają następujące znaczenie:
+Atrybuty w każdym zdarzeniu zgodnym ze schematem `MinecraftEvent` mają następujące 
+znaczenie:
 
-* `ore` - rodzaj surowca należący do zbioru (`coal`, `iron`, `gold`, `diamond`, `emerald`)
+* `ore` - rodzaj surowca należący do zbioru (`coal`, `iron`, `gold`, 
+  `diamond`, `emerald`)
 * `depth` - głębokość, z której wydobyto surowiec, zakres od 1 do 35
 * `amount` - wielkość wydobycia, zakres od 1 do 9
 * `ets` - czas wydobycia surowca
