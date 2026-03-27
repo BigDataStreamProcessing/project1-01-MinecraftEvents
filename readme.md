@@ -101,6 +101,8 @@ Wyniki powinny zawierać, następujące kolumny:
 Znajduj trójki zdarzeń wydobycia tego samego surowca, każdorazowo o wielkości 
 powyżej 5, przy czym każde kolejne wydobycie będzie większe od poprzedniego. 
 Odrzuć takie przypadki, w trakcie których wydobyto surowiec innego rodzaju.
+Dodatkowo pierwsza ilość w serii musi przekraczać średnią
+ilość wydobycia tego samego surowca z ostatniej minuty rejestracji.
 
 Wyniki powinny zawierać następujące kolumny:
 - `ore` - rodzaj surowca w wykrytej serii
@@ -112,6 +114,8 @@ Wyniki powinny zawierać następujące kolumny:
 Trzy kolejne wydobycia trzech różnych surowców są określane przez graczy *Big3*. 
 Znajduj przypadki wystąpienia dwóch następujących po sobie *Big3*. 
 Każde wydobycie może należeć tylko i wyłącznie do jednego *Big3*.
+Dodatkowo suma wydobytych ilości w drugiej trójce musi być większa 
+niż suma ilości w pierwszej trójce.
 
 Wyniki powinny zawierać, następujące kolumny:
 - `startIts` - moment rejestracji pierwszego zdarzenia z pierwszego *Big3*
