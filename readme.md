@@ -78,6 +78,7 @@ utrzymywane są statystyki dotyczące wydobycia zarejestrowanego w ciągu ostatn
 dla każdego z typów surowca.
 
 Utrzymuj porównanie tych samych surowców dla obu poziomów głębokości. 
+Ograniczaj wyniki tylko do sytuacji, gdy surowiec występuje na obu poziomach głębokości. 
 
 Wyniki powinny zawierać, następujące kolumny:
 - `ore` - rodzaj surowca
@@ -111,7 +112,8 @@ Wyniki powinny zawierać następujące kolumny:
 - `amount3` - wielkość wydobycia w trzecim zdarzeniu
 
 ## Zadanie 7
-Trzy kolejne wydobycia trzech różnych surowców są określane przez graczy *Big3*. 
+Trzy kolejne bezpośrednio po sobie następujące wydobycia 
+trzech różnych surowców są określane przez graczy *Big3*. 
 Znajduj przypadki wystąpienia dwóch następujących po sobie *Big3*. 
 Każde wydobycie może należeć tylko i wyłącznie do jednego *Big3*.
 Dodatkowo suma wydobytych ilości w drugiej trójce musi być większa 
